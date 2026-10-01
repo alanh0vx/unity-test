@@ -1,0 +1,41 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameUI/GameUIStyleSheet.uss?fileID=7433441132597879392&amp;guid=35b9b2a65173fdb47ad41dfdb0b5a02a&amp;type=3#GameUIStyleSheet" />
+    <ui:VisualElement name="Canvas" picking-mode="Ignore" class="canvas canvas-transparent-background">
+        <ui:VisualElement name="HidingBackground" picking-mode="Ignore" class="background" />
+        <ui:VisualElement name="Container" picking-mode="Ignore" class="container" style="background-image: url(&quot;project://database/Assets/Art/Textures/Grid_01_Emissive.png?fileID=2800000&amp;guid=d4d6919451fe3e24388816386a6d15a4&amp;type=3#Grid_01_Emissive&quot;); height: auto;">
+            <ui:VisualElement name="UIWrapper" picking-mode="Ignore">
+                <ui:VisualElement name="ConnectionPanel" picking-mode="Ignore">
+                    <ui:VisualElement name="InputPlayerName" picking-mode="Ignore" class="section-separator">
+                        <ui:Label text="Player Name" name="PlayerName" picking-mode="Ignore" />
+                        <ui:TextField name="PlayerNameField" value="_" tabindex="1" />
+                    </ui:VisualElement>
+                    <ui:Label text="Choose Character" name="ChooseCharacterLabel" picking-mode="Ignore" style="-unity-text-align: middle-center; margin-top: 8px; margin-bottom: 2px;" />
+                    <ui:VisualElement name="CharacterThumbs" picking-mode="Ignore" style="flex-direction: row; justify-content: center; margin-top: 4px; margin-bottom: 12px;">
+                        <ui:VisualElement name="NinjaCard" style="flex-direction: column; align-items: center; margin-left: 18px; margin-right: 18px;">
+                            <ui:VisualElement name="NinjaThumb" picking-mode="Ignore" style="width: 100px; height: 100px; -unity-background-scale-mode: scale-and-crop; background-color: rgba(10, 24, 18, 0.6); overflow: hidden; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(120, 220, 160); border-right-color: rgb(120, 220, 160); border-top-color: rgb(120, 220, 160); border-bottom-color: rgb(120, 220, 160); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" />
+                            <ui:Label text="NINJA" picking-mode="Ignore" style="-unity-font-style: bold; letter-spacing: 1px; margin-top: 5px;" />
+                            <ui:Label text="Shuriken + Blade" picking-mode="Ignore" style="font-size: 15px; color: rgb(150, 185, 165);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ShogunCard" style="flex-direction: column; align-items: center; margin-left: 18px; margin-right: 18px;">
+                            <ui:VisualElement name="ShogunThumb" picking-mode="Ignore" style="width: 100px; height: 100px; -unity-background-scale-mode: scale-and-crop; background-color: rgba(10, 24, 18, 0.6); overflow: hidden; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(120, 220, 160); border-right-color: rgb(120, 220, 160); border-top-color: rgb(120, 220, 160); border-bottom-color: rgb(120, 220, 160); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" />
+                            <ui:Label text="SHOGUN" picking-mode="Ignore" style="-unity-font-style: bold; letter-spacing: 1px; margin-top: 5px;" />
+                            <ui:Label text="Spear-gun + Katana" picking-mode="Ignore" style="font-size: 15px; color: rgb(150, 185, 165);" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:RadioButtonGroup label="Mode" choices="Single,Multiplayer" value="-1" name="ConnetionModeOption" style="border-left-color: rgb(120, 220, 160); border-right-color: rgb(120, 220, 160); border-top-color: rgb(120, 220, 160); border-bottom-color: rgb(120, 220, 160); border-bottom-width: 2px; border-right-width: 2px; border-top-width: 2px; border-left-width: 2px;" />
+                    <ui:VisualElement name="InputSessionName" picking-mode="Ignore" class="section-separator">
+                        <ui:Label text="Session Name" name="SessionName" picking-mode="Ignore" />
+                        <ui:TextField name="SessionNameField" value="_" tabindex="1" />
+                    </ui:VisualElement>
+                    <ui:Button text="Create or Join Session" name="CreateJoinGame" tabindex="3" />
+                    <ui:VisualElement name="Seperator" style="flex-grow: 1; height: 16px;" />
+                    <ui:Button text="Start Host" name="StartHost" tabindex="4" selectable="true" />
+                    <ui:Button text="Connect to Server" name="ConnectToServer" tabindex="4" selectable="true" />
+                    <ui:Button text="Matchmake" name="QuickJoin" tabindex="5" enabled="true" class="section-separator hidden" style="display: none;" />
+                    <ui:VisualElement name="Seperator" style="flex-grow: 1; height: 16px;" />
+                    <ui:Button text="Quit" name="QuitButton" tabindex="6" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

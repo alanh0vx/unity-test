@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameUI/PlayerHUD.uss?fileID=7433441132597879392&amp;guid=89bbe73027f904b8da50bf55484c285f&amp;type=3#PlayerHUD"/>
+    <ui:VisualElement name="weapon-info-container" picking-mode="Ignore">
+        <ui:Label name="weapon-type-label" text="Weapon Name" enabled="true" style="display: none;"/>
+        <ui:Label name="reloading-label" text="RELOADING"/>
+        <ui:VisualElement name="weapon-icon" style="display: none;"/>
+        <ui:VisualElement name="ammo-container">
+            <ui:Label name="ammo-label" text="0 / 0"/>
+            <ui:Label name="ammo-reserve-label" text="Reserve: &#8734;" style="display: none;"/>
+            <ui:ProgressBar value="22" title="AMMO" name="player-ammo-bar" class="kits-progress-bar kits-ammo-bar"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="health-info-container" picking-mode="Ignore">
+        <ui:VisualElement name="character-portrait" picking-mode="Ignore" style="width: 96px; height: 96px; margin-bottom: 8px; -unity-background-scale-mode: scale-to-fit; display: none;"/>
+        <ui:ProgressBar value="63.8" title="HEALTH" name="player-health-bar" class="kits-progress-bar"/>
+        <ui:ProgressBar name="player-stamina-bar" low-value="0" high-value="100" value="100" class="kits-progress-bar" style="display: none;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="reticle-container" picking-mode="Ignore">
+        <ui:VisualElement name="player-reticle" picking-mode="Ignore"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="win-overlay" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; align-items: center; justify-content: center; display: none; background-color: rgba(0, 10, 6, 0.6);">
+        <ui:Label text="VICTORY!" name="win-label" picking-mode="Ignore" style="font-size: 72px; -unity-font-style: bold; letter-spacing: 4px; color: rgb(150, 235, 180);" />
+        <ui:Label text="All viruses eliminated" name="win-sub" picking-mode="Ignore" style="font-size: 26px; color: rgb(220, 255, 235); margin-top: 12px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="minimap" picking-mode="Ignore" style="position: absolute; top: 20px; right: 20px; width: 150px; height: 150px; border-top-left-radius: 75px; border-top-right-radius: 75px; border-bottom-left-radius: 75px; border-bottom-right-radius: 75px; background-color: rgba(8, 20, 15, 0.55); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgba(120, 220, 160, 0.55); border-right-color: rgba(120, 220, 160, 0.55); border-top-color: rgba(120, 220, 160, 0.55); border-bottom-color: rgba(120, 220, 160, 0.55); overflow: hidden;">
+        <ui:VisualElement name="minimap-player" picking-mode="Ignore" style="position: absolute; width: 12px; height: 12px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; background-color: rgb(150, 235, 180); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(20, 40, 30); border-right-color: rgb(20, 40, 30); border-top-color: rgb(20, 40, 30); border-bottom-color: rgb(20, 40, 30);"/>
+    </ui:VisualElement>
+</ui:UXML>
