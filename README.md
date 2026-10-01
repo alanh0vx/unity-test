@@ -1,6 +1,8 @@
 # vxrl-fps — AI tooling sample project
 
-![Gameplay](docs/title.png)
+[![Gameplay](docs/title.png)](https://www.youtube.com/watch?v=YsSH1jBLmko)
+
+▶️ **[Watch the demo on YouTube](https://www.youtube.com/watch?v=YsSH1jBLmko)**
 
 A **sample / experiment project**, not a finished game. It exists to test how far modern AI tooling can take a game-dev task end to end.
 
