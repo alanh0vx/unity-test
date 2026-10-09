@@ -2,6 +2,8 @@
 
 A separate, offline Unity FPS built around fast movement, two distinct character loadouts, keyed exploration, secret caches, and a boss exit. It reuses the original vxrl-fps cyber-enemy and weapon art with new single-player gameplay code.
 
+![Shogun gameplay](../docs/vxrl-fps2/gameplay.jpg)
+
 ▶️ **Play in the browser: [fps.vxrl.ai](https://fps.vxrl.ai)** (desktop keyboard/mouse, or landscape on a phone with touch controls)
 
 ## Play
