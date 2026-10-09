@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7812663a261114027ba0949f215e9141, type: 3}
+  m_Name: Campaign
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.CampaignDefinition
+  characters:
+  - {fileID: 11400000, guid: f1bc85986b8a94940ba7b31ae97160ec, type: 2}
+  - {fileID: 11400000, guid: 4a9c75c367d4f4e13b46dff9715be544, type: 2}
+  title: ROOTBREACH
+  levels:
+  - {fileID: 11400000, guid: 9c73596d6899b4a8382a1fa957d890d3, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: 71d14fe4169e64024bbaf3721580c0e6, type: 2}
+  - {fileID: 11400000, guid: ba26f5d6e9b82465094e9052fac51209, type: 2}
+  - {fileID: 11400000, guid: 489eb1dc6f932471d93f7ee40781a3d8, type: 2}
+  - {fileID: 11400000, guid: 82945e84360be4f28b2dcfb0cbc3568d, type: 2}
+  - {fileID: 11400000, guid: 8dd72f7c4f67646e69d94874d41e6f4f, type: 2}
+  - {fileID: 11400000, guid: 2af23623e970e4984a15a385814a70bf, type: 2}

@@ -22,6 +22,12 @@ It starts from Unity's **Multiplayer FPS template** (Unity 6, Netcode for Entiti
 - A re-themed menu with clickable character cards, plus Single / Multiplayer entry
 - Editor tools under **Tools ▸ PvE** to build and register enemies, viewmodels, and placeholder weapons
 
+## vxrl-fps2 — ROOTBREACH
+
+[`vxrl-fps2/`](vxrl-fps2/) is a separate single-player follow-up: one authored level, Ninja/Shogun loadouts, keys, secrets and a boss, built with URP and exported to WebGL with mobile touch controls.
+
+▶️ **[Play it in the browser at fps.vxrl.ai](https://fps.vxrl.ai)** — see [vxrl-fps2/README.md](vxrl-fps2/README.md) for controls, build and hosting.
+
 ## Status
 
 Work in progress — the core loop (move, swap weapons, fight enemies, win) plays, with campaign/lives systems still to come. Built and tested in the Unity Editor (`6000.6.4f1`).

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d1a570d397d46ebb799e4bf3cdfa8e, type: 3}
+  m_Name: Ransomware_Warden
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.EnemyDefinition
+  id: Ransomware_Warden
+  displayName: Ransomware Warden
+  model: {fileID: 1221917546008755434, guid: 1e5b7eb42048846cb9a518655740b0d0, type: 3}
+  role: 3
+  health: 700
+  speed: 2.8
+  damage: 15
+  attackInterval: 2.2
+  projectileSpeed: 11
+  noticeRange: 25
+  height: 3.2
+  color: {r: 1, g: 0.16, b: 0.08, a: 1}

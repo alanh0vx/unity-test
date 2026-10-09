@@ -1,0 +1,83 @@
+PASS desktop retains mouse input without an actual touch
+PASS Ninja owns Shuriken and Tanto only
+PASS Ninja key 1 selects Shuriken
+PASS Ninja key 2 selects Tanto
+PASS Shogun owns Yari and Katana only
+PASS Shogun key 1 selects Yari
+PASS Shogun key 2 selects Katana
+PASS class-specific ammo adapts to Shogun
+PASS display and HUD fonts assigned
+PASS Shogun portrait retains original aspect ratio
+PASS Ninja portrait retains original aspect ratio
+PASS authored map generated
+PASS enemy roster spawned
+PASS player/viewmodel loaded
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Worm_Burrower on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Worm_Burrower on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Worm_Burrower on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Worm_Burrower on navigation mesh
+PASS Worm_Burrower on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Virus_Scout on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Malware_Brawler on navigation mesh
+PASS Ransomware_Warden on navigation mesh
+PASS blue gate refuses player without key
+PASS entry to foundry route is connected
+PASS blue gate accepts key
+PASS hub to archive route after gate opens
+PASS armor absorbs half of incoming damage
+PASS weapon shot consumes one ammo
+PASS empty weapon does not fire
+PASS full ammo preserves pickup
+PASS ammo pickup grants ammunition
+PASS point-blank projectile cannot cross a thin wall
+PASS unobstructed projectile applies damage
+PASS Tanto has dedicated slash and cut audio
+PASS Shuriken uses throwing Foley and motion
+PASS Katana has chopping sound and broad stroke
+PASS blade windup does not deal instant damage
+PASS blade contact applies configured damage
+PASS one hit per cutting stroke
+PASS switching weapon cancels pending blade hit
+PASS paused blade does not hit
+PASS blade cannot cut through wall
+PASS enemy death counted once
+PASS repeat damage cannot double count kill
+PASS disk checkpoint restores player inventory and keys
+PASS checkpoint restores selected character and class loadout
+PASS checkpoint restores enemy and pickup state
+PASS boss gate to terminal route is connected
+PASS hidden cache reachable after opening panel
+PASS hidden cache reachable after opening panel
+PASS hidden cache reachable after opening panel
+PASS touch joystick moves player without keyboard input
+PASS independent touch drag turns camera
+PASS third finger fires while moving and aiming
+PASS release and cancellation clear held mobile controls
+PASS touch weapon button cycles to owned blade
+PASS short aim-area tap fires one shot
+PASS touch pause releases gameplay inputs
+PASS lethal damage opens death menu
+PASS death restart restores checkpoint
+PASS exit refuses active boss
+PASS boss death enables level completion

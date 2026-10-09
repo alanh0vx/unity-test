@@ -1,0 +1,7 @@
+# Local QA logs and editor job handshake files
+Validation/*.log
+Validation/editor-job*.txt
+Validation/*-previous.txt
+
+# Burst output written next to the project during WebGL builds
+/Data/

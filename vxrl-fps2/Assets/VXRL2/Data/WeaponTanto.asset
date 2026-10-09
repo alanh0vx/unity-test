@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96adafb16d0c4fa5953be23b0cd1135, type: 3}
+  m_Name: WeaponTanto
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.WeaponDefinition
+  id: tanto
+  displayName: TANTO
+  model: {fileID: 3253388103628631654, guid: 7cf2df2df9c3847d994978a8465204d4, type: 3}
+  fireMode: 0
+  damage: 34
+  interval: 0.25
+  range: 2.3
+  projectileSpeed: 28
+  splashRadius: 4
+  spread: 4
+  pellets: 1
+  startAmmo: 30
+  maxAmmo: 0
+  pickupAmmo: 20
+  availableAtStart: 0
+  fireSound: {fileID: 8300000, guid: 0abbd4e1b376a423b82aea15e6734982, type: 3}
+  color: {r: 0, g: 1, b: 1, a: 1}
+  viewPosition: {x: 0.31, y: -0.22, z: 0.5}
+  viewRotation: {x: 0, y: 0, z: -25}
+  viewScale: 1
+  throwingMotion: 0
+  contactFraction: 0.35
+  windupPosition: {x: 0.06, y: 0.06, z: -0.06}
+  cutPosition: {x: -0.36, y: 0.16, z: 0.1}
+  windupRotation: {x: -20, y: 0, z: -30}
+  cutRotation: {x: 30, y: -25, z: 85}
+  cutSound: {fileID: 8300000, guid: dc04a4154d5aa4ab18d0c2608f8f574b, type: 3}
+  wallSound: {fileID: 8300000, guid: b812386a3a91446cf89ef2038e53374b, type: 3}

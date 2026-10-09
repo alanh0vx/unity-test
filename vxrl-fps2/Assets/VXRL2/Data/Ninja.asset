@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e60e587e7f94c495d81cfef2859a7e4f, type: 3}
+  m_Name: Ninja
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.CharacterDefinition
+  id: ninja
+  displayName: NINJA
+  tagline: SPEED / PRECISION
+  description: 'Fast movement. Rapid shuriken fire.
+
+    Finish close targets with the Tanto.'
+  portrait: {fileID: 2800000, guid: 93336908ae2c24e9790dd09f671a5ff8, type: 3}
+  accent: {r: 0.2, g: 0.86, b: 0.9, a: 1}
+  movementSpeed: 9.8
+  startingArmor: 15
+  startingWeapons:
+  - weapon: {fileID: 11400000, guid: ba26f5d6e9b82465094e9052fac51209, type: 2}
+    ammo: 90
+  - weapon: {fileID: 11400000, guid: 2af23623e970e4984a15a385814a70bf, type: 2}
+    ammo: 0
+  inventoryOrder:
+  - {fileID: 11400000, guid: ba26f5d6e9b82465094e9052fac51209, type: 2}
+  - {fileID: 11400000, guid: 2af23623e970e4984a15a385814a70bf, type: 2}
+  - {fileID: 11400000, guid: 489eb1dc6f932471d93f7ee40781a3d8, type: 2}
+  - {fileID: 11400000, guid: 8dd72f7c4f67646e69d94874d41e6f4f, type: 2}

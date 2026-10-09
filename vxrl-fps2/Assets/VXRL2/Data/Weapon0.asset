@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96adafb16d0c4fa5953be23b0cd1135, type: 3}
+  m_Name: Weapon0
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.WeaponDefinition
+  id: katana
+  displayName: KATANA
+  model: {fileID: 725187593215078393, guid: 277222b67cb1a464b8f584da33a79cad, type: 3}
+  fireMode: 0
+  damage: 45
+  interval: 0.4
+  range: 2.5
+  projectileSpeed: 28
+  splashRadius: 4
+  spread: 0.7
+  pellets: 1
+  startAmmo: 0
+  maxAmmo: 0
+  pickupAmmo: 0
+  availableAtStart: 1
+  fireSound: {fileID: 8300000, guid: 9d99c4013e25742b2ab3ef9560b9aeff, type: 3}
+  color: {r: 0.1, g: 0.9, b: 1, a: 1}
+  viewPosition: {x: 0.38, y: -0.28, z: 0.65}
+  viewRotation: {x: 0, y: 0, z: -25}
+  viewScale: 1
+  throwingMotion: 0
+  contactFraction: 0.35
+  windupPosition: {x: 0.02, y: 0.12, z: -0.1}
+  cutPosition: {x: -0.48, y: 0.2, z: 0.08}
+  windupRotation: {x: -35, y: 10, z: -40}
+  cutRotation: {x: 35, y: -30, z: 105}
+  cutSound: {fileID: 8300000, guid: dc04a4154d5aa4ab18d0c2608f8f574b, type: 3}
+  wallSound: {fileID: 8300000, guid: b812386a3a91446cf89ef2038e53374b, type: 3}

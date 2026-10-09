@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71388289960c4d8e814940036021d81, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.GameAssets
+  campaign: {fileID: 11400000, guid: 1b35b1722c05b47dda8cdfa8f7a97257, type: 2}
+  displayFont: {fileID: 12800000, guid: 1f681c83dbabc4e0fb466ec91d69489c, type: 3}
+  bodyFont: {fileID: 12800000, guid: 4bb226b869b39498ca521ffc01ea022b, type: 3}
+  worldTextShader: {fileID: 4800000, guid: 8f84c0b93547a4502b1af7c8ce65abb1, type: 3}
+  effects: {fileID: 2100000, guid: 354721d8c095d46598ec306b75ad6a87, type: 2}
+  floor: {fileID: 2100000, guid: 2a48b54af572e4fa6bdcf0b28c25928a, type: 2}
+  wall: {fileID: 2100000, guid: ee6d7726d85a24bcf8f69286dbfe3260, type: 2}
+  trim: {fileID: 2100000, guid: dc83d9cba0b924f988d5918ffa6f0444, type: 2}
+  dark: {fileID: 2100000, guid: d5314503cd8a5478bbb2564a70786e32, type: 2}
+  metal: {fileID: 2100000, guid: 2c5aac95946de449093cba111d4fb051, type: 2}
+  cyan: {fileID: 2100000, guid: 2e4e19c2ec7f7466e8f8b8088e4f6f5f, type: 2}
+  amber: {fileID: 2100000, guid: 39e33ec1276aa42539af87d3ed057208, type: 2}
+  red: {fileID: 2100000, guid: 934d732bf79564a3b9100806a652afa3, type: 2}
+  green: {fileID: 2100000, guid: 1681857cf293f4997b41e8ac71d02e5a, type: 2}
+  shot: {fileID: 8300000, guid: 91029d45834352841bff710a0184160c, type: 3}
+  blast: {fileID: 8300000, guid: ee04dbc5f4575444d8f92291e19acb74, type: 3}
+  blade: {fileID: 8300000, guid: 8c43cfd3596c1994ab1a363b7fd88379, type: 3}
+  hurt: {fileID: 8300000, guid: 29734f3b7e5847c47be40b802d986f8b, type: 3}
+  pickup: {fileID: 8300000, guid: d37b68e40ca1c5446bd625241fb24cc4, type: 3}
+  death: {fileID: 8300000, guid: 41b5cec4921c603458c1f5f425ea5cad, type: 3}
+  step: {fileID: 8300000, guid: bbc1e88dbd07510429ca88d948337cb1, type: 3}
+  portrait: {fileID: 2800000, guid: fbb3c52b642944d65919e888261badc9, type: 3}

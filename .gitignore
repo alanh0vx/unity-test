@@ -9,13 +9,16 @@
 [Mm]emoryCaptures/
 [Rr]ecordings/
 
+# Unity crash-recovery scenes and Burst build output
+**/[Aa]ssets/_Recovery/
+**/[Aa]ssets/_Recovery.meta
+[Bb]urst[Dd]ebug[Ii]nformation_[Dd]o[Nn]ot[Ss]hip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
 # Unity3D generated meta files for files that are themselves ignored
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-
-# Keep .meta files for assets (only ignore meta when the asset itself is ignored)
-!/[Aa]ssets/**/*.meta
 
 # ---- IDE / tooling ----
 .vs/
@@ -47,6 +50,8 @@ Thumbs.db
 ehthumbs.db
 
 # ---- Unity builds / packages / crash files ----
+*.unityweb
+*.zip
 sysinfo.txt
 *.apk
 *.aab

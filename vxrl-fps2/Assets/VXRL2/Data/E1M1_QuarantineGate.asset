@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa979a6c2e6e4f078a6f74cdc4ea206, type: 3}
+  m_Name: E1M1_QuarantineGate
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.LevelDefinition
+  id: quarantine
+  displayName: QUARANTINE GATE
+  subtitle: SECTOR 01 / ROOTBREACH
+  start: {x: 15, y: 2}
+  exit: {x: 15, y: 36}
+  checkpoint: {x: 15, y: 25}
+  rooms:
+  - name: ENTRY / 01
+    cells:
+      x: 13
+      y: 0
+      width: 5
+      height: 5
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 1
+  - name: 
+    cells:
+      x: 14
+      y: 5
+      width: 3
+      height: 3
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 0
+  - name: SECURITY HUB
+    cells:
+      x: 11
+      y: 8
+      width: 9
+      height: 8
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 1
+  - name: 
+    cells:
+      x: 8
+      y: 11
+      width: 3
+      height: 3
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 0
+  - name: MAINTENANCE
+    cells:
+      x: 2
+      y: 9
+      width: 6
+      height: 7
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 1
+  - name: 
+    cells:
+      x: 4
+      y: 16
+      width: 3
+      height: 3
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 0
+  - name: FOUNDRY / BLUE ACCESS
+    cells:
+      x: 1
+      y: 19
+      width: 8
+      height: 7
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 1
+  - name: 
+    cells:
+      x: 9
+      y: 22
+      width: 5
+      height: 3
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 0
+  - name: 
+    cells:
+      x: 14
+      y: 16
+      width: 3
+      height: 13
+    accent: {r: 1, g: 0.1, b: 0.1, a: 1}
+    decorate: 0
+  - name: 
+    cells:
+      x: 20
+      y: 11
+      width: 4
+      height: 3
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 0
+  - name: REACTOR RING
+    cells:
+      x: 24
+      y: 8
+      width: 8
+      height: 12
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 1
+  - name: 
+    cells:
+      x: 27
+      y: 20
+      width: 3
+      height: 3
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 0
+  - name: ARCHIVE / RED ACCESS
+    cells:
+      x: 24
+      y: 23
+      width: 8
+      height: 7
+    accent: {r: 1, g: 0.1, b: 0.1, a: 1}
+    decorate: 1
+  - name: WARDEN CHAMBER
+    cells:
+      x: 11
+      y: 29
+      width: 10
+      height: 9
+    accent: {r: 1, g: 0.1, b: 0.1, a: 1}
+    decorate: 1
+  - name: HIDDEN CACHE
+    cells:
+      x: 0
+      y: 13
+      width: 2
+      height: 2
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 1
+  - name: SERVICE CACHE
+    cells:
+      x: 30
+      y: 20
+      width: 2
+      height: 2
+    accent: {r: 0.12, g: 0.8, b: 1, a: 1}
+    decorate: 1
+  - name: FORGOTTEN CACHE
+    cells:
+      x: 9
+      y: 24
+      width: 2
+      height: 2
+    accent: {r: 1, g: 0.45, b: 0.1, a: 1}
+    decorate: 1
+  enemies:
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 15, y: 7}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 12, y: 11}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 18, y: 13}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 4, y: 11}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 5, y: 14}
+  - definition: {fileID: 11400000, guid: 0ef9b02fb396641f9820d97d690201b2, type: 2}
+    cell: {x: 3, y: 13}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 2, y: 21}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 7, y: 21}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 4, y: 23}
+  - definition: {fileID: 11400000, guid: 0ef9b02fb396641f9820d97d690201b2, type: 2}
+    cell: {x: 6, y: 24}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 8, y: 24}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 12, y: 23}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 15, y: 20}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 25, y: 10}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 30, y: 10}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 28, y: 14}
+  - definition: {fileID: 11400000, guid: 0ef9b02fb396641f9820d97d690201b2, type: 2}
+    cell: {x: 25, y: 16}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 30, y: 18}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 28, y: 19}
+  - definition: {fileID: 11400000, guid: 0ef9b02fb396641f9820d97d690201b2, type: 2}
+    cell: {x: 28, y: 21}
+  - definition: {fileID: 11400000, guid: 0ef9b02fb396641f9820d97d690201b2, type: 2}
+    cell: {x: 25, y: 25}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 30, y: 25}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 28, y: 27}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 25, y: 28}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 12, y: 30}
+  - definition: {fileID: 11400000, guid: 228c39699b3374588928425b5508004a, type: 2}
+    cell: {x: 19, y: 30}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 12, y: 34}
+  - definition: {fileID: 11400000, guid: dcadc4e5250cd4630afad087440424e0, type: 2}
+    cell: {x: 19, y: 35}
+  - definition: {fileID: 11400000, guid: 09cbbf1464fd346e58b39f2e7d5b8a17, type: 2}
+    cell: {x: 16, y: 35}
+  pickups:
+  - type: 3
+    cell: {x: 5, y: 10}
+    amount: 24
+    weaponIndex: 2
+  - type: 3
+    cell: {x: 25, y: 9}
+    amount: 10
+    weaponIndex: 3
+  - type: 4
+    cell: {x: 4, y: 24}
+    amount: 25
+    weaponIndex: 1
+  - type: 5
+    cell: {x: 29, y: 28}
+    amount: 25
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 15, y: 4}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 11, y: 9}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 6, y: 15}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 3, y: 22}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 18, y: 14}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 25, y: 18}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 30, y: 27}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 14, y: 25}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 16, y: 25}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 12, y: 31}
+    amount: 30
+    weaponIndex: 1
+  - type: 0
+    cell: {x: 19, y: 34}
+    amount: 30
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 16, y: 3}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 3, y: 10}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 7, y: 24}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 12, y: 14}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 30, y: 12}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 25, y: 26}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 15, y: 24}
+    amount: 45
+    weaponIndex: 1
+  - type: 2
+    cell: {x: 6, y: 12}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 2, y: 24}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 18, y: 11}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 29, y: 17}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 26, y: 28}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 14, y: 26}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 12, y: 33}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 19, y: 36}
+    amount: 16
+    weaponIndex: 2
+  - type: 2
+    cell: {x: 25, y: 15}
+    amount: 6
+    weaponIndex: 3
+  - type: 2
+    cell: {x: 30, y: 29}
+    amount: 6
+    weaponIndex: 3
+  - type: 2
+    cell: {x: 16, y: 26}
+    amount: 6
+    weaponIndex: 3
+  - type: 2
+    cell: {x: 18, y: 36}
+    amount: 6
+    weaponIndex: 3
+  - type: 1
+    cell: {x: 17, y: 9}
+    amount: 40
+    weaponIndex: 1
+  - type: 1
+    cell: {x: 26, y: 24}
+    amount: 40
+    weaponIndex: 1
+  - type: 1
+    cell: {x: 15, y: 26}
+    amount: 75
+    weaponIndex: 1
+  - type: 6
+    cell: {x: 0, y: 14}
+    amount: 25
+    weaponIndex: 1
+  - type: 6
+    cell: {x: 31, y: 21}
+    amount: 25
+    weaponIndex: 1
+  - type: 6
+    cell: {x: 10, y: 25}
+    amount: 25
+    weaponIndex: 1
+  doors:
+  - cell: {x: 21, y: 12}
+    alongX: 1
+    secret: 0
+    key: 1
+    label: BLUE GATE
+  - cell: {x: 15, y: 27}
+    alongX: 0
+    secret: 0
+    key: 2
+    label: RED GATE
+  - cell: {x: 1, y: 14}
+    alongX: 1
+    secret: 1
+    key: 0
+    label: CACHE PANEL
+  - cell: {x: 30, y: 21}
+    alongX: 1
+    secret: 1
+    key: 0
+    label: CACHE PANEL
+  - cell: {x: 9, y: 25}
+    alongX: 1
+    secret: 1
+    key: 0
+    label: CACHE PANEL
+  pillars:
+  - {x: 26, y: 11}
+  - {x: 29, y: 11}
+  - {x: 26, y: 16}
+  - {x: 29, y: 16}
+  - {x: 13, y: 32}
+  - {x: 18, y: 32}
+  - {x: 13, y: 35}
+  - {x: 18, y: 35}
+  signs:
+  - text: < MAINTENANCE     /     REACTOR >
+    cell: {x: 15, y: 10}
+    yaw: 0
+    color: {r: 0, g: 1, b: 1, a: 1}
+  - text: FOUNDRY  /  BLUE ACCESS
+    cell: {x: 5, y: 15}
+    yaw: 0
+    color: {r: 1, g: 0.6, b: 0.2, a: 1}
+  - text: ARCHIVE  /  RED ACCESS
+    cell: {x: 28, y: 19}
+    yaw: 0
+    color: {r: 0, g: 1, b: 1, a: 1}
+  - text: WARNING  /  WARDEN CONTAINMENT
+    cell: {x: 15, y: 25}
+    yaw: 0
+    color: {r: 1, g: 0, b: 0, a: 1}
+  requiresBoss: 1
+  entryObjective: FIND BLUE ACCESS IN THE FOUNDRY
+  blueObjective: "ENTER THE REACTOR \u2022 FIND RED ACCESS"
+  redObjective: "BREACH THE RED GATE \u2022 DESTROY WARDEN"
+  exitObjective: REACH THE PURGE TERMINAL

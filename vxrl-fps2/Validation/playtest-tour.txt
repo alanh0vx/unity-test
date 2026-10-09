@@ -1,0 +1,28 @@
+Reached (15, 7) at 3s
+Reached (15, 11) at 6s
+Reached (5, 11) at 13s
+Reached (5, 10) at 13s
+Reached (5, 14) at 15s
+Reached (5, 18) at 21s
+Reached (4, 24) at 24s
+Reached (12, 23) at 29s
+Reached (15, 20) at 31s
+Reached (15, 12) at 35s
+Reached (20, 12) at 37s
+Reached (24, 12) at 42s
+Reached (25, 9) at 44s
+Reached (28, 18) at 51s
+Reached (28, 21) at 54s
+Reached (29, 28) at 58s
+Reached (28, 21) at 61s
+Reached (28, 12) at 65s
+Reached (22, 12) at 67s
+Reached (15, 12) at 71s
+Reached (15, 25) at 76s
+Reached (15, 29) at 85s
+Reached (15, 34) at 91s
+Reached (15, 36) at 92s
+Completion mode: Won
+Frames: 10635, average fps: 115.9, p95 frame ms: 9.33
+Health/ammo assistance count: 1. This is a functional traversal test, not an unassisted difficulty/balance test.
+Apple M3 Pro / Apple M3 Pro / 1440x900

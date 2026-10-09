@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96adafb16d0c4fa5953be23b0cd1135, type: 3}
+  m_Name: Weapon3
+  m_EditorClassIdentifier: Assembly-CSharp::VXRL2.WeaponDefinition
+  id: yari_launcher
+  displayName: YARI LAUNCHER
+  model: {fileID: 6172991542162526810, guid: 9cf31d84191384b1584e4a4e631eb950, type: 3}
+  fireMode: 3
+  damage: 150
+  interval: 0.9
+  range: 90
+  projectileSpeed: 28
+  splashRadius: 4
+  spread: 0.7
+  pellets: 1
+  startAmmo: 0
+  maxAmmo: 30
+  pickupAmmo: 5
+  availableAtStart: 0
+  fireSound: {fileID: 8300000, guid: e91919c4e9d89f44fb9c519738e2a666, type: 3}
+  color: {r: 1, g: 0.45, b: 0.08, a: 1}
+  viewPosition: {x: 0.24, y: -0.23, z: 0.55}
+  viewRotation: {x: 90, y: 0, z: 0}
+  viewScale: 1
